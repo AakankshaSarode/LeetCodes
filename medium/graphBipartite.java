@@ -1,4 +1,6 @@
-class Solution {
+ import java.util.*;
+ 
+ class Solution {
     public boolean isBipartite(int[][] graph) {
      int n=graph.length;
       int col[]= new int[n];
